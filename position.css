@@ -1,0 +1,111 @@
+.headermain{
+    width: 1080px;
+    height: 100px;
+    margin: 0px auto;
+    z-index: 0;
+}
+
+.header{
+    width: 1080px;
+    height: 100px;
+    position: fixed;
+    z-index: 9999;
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.wrapper{
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: "Comic Sans MS";
+}
+
+.inner-items { /*свойстава зеленого квадрата и остальных*/
+    background: green;
+    margin: 2px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: -15px;
+    color: yellow;
+    }
+
+.inner-items:hover{/*выносит квадраты на передний план при наведении*/
+    z-index: 4;
+}
+
+
+.blue{
+    background-color: blue;
+    left: -20px;
+    bottom: -20px;
+    z-index: 1;
+    opacity: 1;
+    color: red;
+}
+
+.red
+{
+    background: red;
+    z-index: 2;
+    right: -25px;
+    top: -20px;
+    color: blue;
+}
+
+.yellow{
+    color: green;
+    background: yellow;
+    z-index: 3;
+    left: -10px;
+}
+
+.circle{
+    display: flex;
+    border-radius: 100% ;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 70px;
+    height: 70px;
+    margin: 14px;
+    font-weight: bold;
+    font-size: 25px;
+    color: darkmagenta;
+
+}
+
+.text{
+
+    text-shadow: red;
+    align-items: top;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    font-size: 35px;
+    transform: rotate(-15deg);/*поворачивает текст*/
+}
+
+
+
+
